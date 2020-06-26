@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-11-19T10:21:16 IST" name="Default suite" finished-at="2019-11-19T10:21:56 IST" duration-ms="40593">
+    <groups>
+    </groups>
+    <test started-at="2019-11-19T10:21:16 IST" name="Default test" finished-at="2019-11-19T10:21:56 IST" duration-ms="40593">
+      <class name="com.levadata.AppacheMethodInvoke">
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.levadata.AppacheMethodInvoke@23986957]" started-at="2019-11-19T10:21:16 IST" name="login" data-provider="user" finished-at="2019-11-19T10:21:37 IST" duration-ms="21239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fitbit.user3@fbit.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.levadata.AppacheMethodInvoke@23986957]" started-at="2019-11-19T10:21:37 IST" name="login" data-provider="user" finished-at="2019-11-19T10:21:56 IST" duration-ms="19292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fitbit.user3@fbit.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.levadata.AppacheMethodInvoke -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
